@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="G:/Software/IntelliJ IDEA 2017.2.2/IdeaProjects/Welfare-Lottery/lib/dom4j-1.6.1.jar" />
+    <archive path="G:/Software/IntelliJ IDEA 2017.2.2/IdeaProjects/Welfare-Lottery/lib/xmlbeans-2.3.0.jar" />
+    <archive path="G:/Software/IntelliJ IDEA 2017.2.2/IdeaProjects/Welfare-Lottery/lib/poi-3.8-20120326.jar" />
+    <archive path="G:/Software/IntelliJ IDEA 2017.2.2/IdeaProjects/Welfare-Lottery/lib/poi-ooxml-3.8-20120326.jar" />
+    <archive path="G:/Software/IntelliJ IDEA 2017.2.2/IdeaProjects/Welfare-Lottery/lib/poi-ooxml-schemas-3.8-20120326.jar" />
+  </library>
+</eclipse-userlibraries>
+

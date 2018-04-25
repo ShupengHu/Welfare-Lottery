@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="user_interfance.Controller">
+   <children>
+      <Label fx:id="selectedNoLable" layoutX="14.0" layoutY="145.0" text="请输入要选的红色球总数">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <TextField fx:id="selectedNoTextField" layoutX="443.0" layoutY="132.0" prefHeight="76.0" prefWidth="111.0">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="inputNoTextField" layoutX="312.0" layoutY="11.0" prefHeight="76.0" prefWidth="119.0">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </TextField>
+      <Label fx:id="inputNoLable" layoutY="11.0" text="请输入红色球号码">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="inforTextArea" layoutX="9.0" layoutY="212.0" prefHeight="580.0" prefWidth="1185.0" promptText="请首先输入红色球号码，然后点击 “确定” 按钮，输入完毕点击 ”结束“ 按钮">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="countButton" layoutX="1059.0" layoutY="119.0" mnemonicParsing="false" onAction="#onButtonClick" text="计算">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button fx:id="nextButton" layoutX="458.0" layoutY="11.0" mnemonicParsing="false" onAction="#onButtonClick" text="确定">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="finishButton" layoutX="610.0" layoutY="11.0" mnemonicParsing="false" onAction="#onButtonClick" text="结束">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
